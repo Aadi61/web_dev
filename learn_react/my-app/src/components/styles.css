@@ -1,0 +1,28 @@
+
+    .card-container {
+      display: flex; /* Use flexbox */
+      /* flex-wrap: wrap;  */
+      justify-content: center; 
+      align-items: center;
+      flex-direction: column;
+    }
+    
+    .card {
+      border: 2px solid #007bff; /* blue border */
+      border-radius: 10px;
+      padding: 0px 0px 0px 20px;
+      margin: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* box shadow */
+      background-color: rgba(110, 182, 63, 0.2); /* light gray background */
+      width: 300px;
+      text-align: left;
+    
+    }
+      
+      .card p {
+        margin-bottom: 10px;
+        font-size: 18px;
+        line-height: 1.5;
+        color:blue
+      }
+      

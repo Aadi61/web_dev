@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+  </head>
+  <body>
+    <div class="padd">
+      <h2>To-Do List</h2>
+      <h3>Start by adding items into your to do list</h3>
+      <div class="addTask">
+        <form id="task">
+          <input type="text" name="task" />
+          <button type="submit" name="submit" onclick="addTask(event)">Add Task</button>
+        </form>
+      </div>
+
+      <nav>
+        <a href="#all-tasks">All </a>
+        <a href="#pending-tasks">Pending </a>
+        <a href="#completed-tasks">Completed </a>
+      </nav>
+
+      <ol id="taskList">
+        <li class="task-item">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel vero
+          debitis optio accusantium necessitatibus quam aperiam qui totam illum
+          ab!
+        </li>
+        <li class="task-item">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum sint
+          unde libero officia perspiciatis doloribus accusantium id nostrum
+          dolorem similique?
+        </li>
+        <li class="task-item">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid,
+          obcaecati? Quod facere adipisci id voluptatem quis culpa voluptas
+          beatae libero!
+        </li>
+        
+      </ol>
+    </div>
+    <script src="todo.js"></script>
+  </body>
+</html>

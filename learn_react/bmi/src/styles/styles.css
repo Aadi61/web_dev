@@ -1,0 +1,33 @@
+
+.textfield{
+    margin-bottom: 30px;
+}
+
+label{
+    margin-right: 20px;
+    font-weight: 550;
+    /* display: block; */
+    /* text-align: left; */
+}
+
+input{
+    /* border-radius: 5px; */
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 10px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+    border: none;
+}
+
+.card{
+    background-color: white;
+    /* background-color: rgba(235, 79, 40, 0.4); */
+    padding: 30px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.6);
+}
+
+button{
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(212, 78, 44, 0.5);
+}
